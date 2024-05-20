@@ -54,7 +54,7 @@ app.put('/admins/:id' , async (req, res) =>{
 
 // read operation use 
 
-app.get('/admins/:id', async (req, res) =>{
+app.get('/admins', async (req, res) =>{
     const id =  req.params.id;
 
     try{
