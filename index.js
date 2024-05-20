@@ -9,7 +9,9 @@ const { where } = require('sequelize');
  app.use(express.urlencoded({
     extended: false
  }))
-// app.get('/select' ,  (req,res)=>{   //
+
+
+ // app.get('/select' ,  (req,res)=>{   //
 //     res.send('select')
 // });
 
